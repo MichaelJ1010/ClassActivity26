@@ -1,10 +1,10 @@
-#ifndef OPERATOR==_H
-#define OPERATOR==_H
+#ifndef OPERATOR_EQUALS_H
+#define OPERATOR_EQUALS_H
 
 #include "./point.hpp"
 
-namespace equals{
-	bool operator==(coordinate::Point point1, coordinate::Point point2);
+namespace equal{
+	bool operator==(const coordinate::Point& point1, const coordinate::Point& point2);
 }
 
 #endif

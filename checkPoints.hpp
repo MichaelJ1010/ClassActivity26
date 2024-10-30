@@ -3,7 +3,7 @@
 
 #include "./point.hpp"
 
-namespace point {
+namespace point{
 	void checkPoints(const coordinate::Point& point1, const coordinate::Point& point2);
 }
 #endif
